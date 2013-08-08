@@ -1,0 +1,30 @@
+{
+  "name": "karmademo",
+  "version": "0.0.0",
+  "description": "Demo of the karma test runner",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "James Morrin",
+  "license": "BSD",
+  "devDependencies": {
+    "karma-script-launcher": "~0.1.0",
+    "karma-chrome-launcher": "~0.1.0",
+    "karma-firefox-launcher": "~0.1.0",
+    "karma-html2js-preprocessor": "~0.1.0",
+    "karma-jasmine": "~0.1.0",
+    "karma-requirejs": "~0.1.0",
+    "karma-coffee-preprocessor": "~0.1.0",
+    "karma-phantomjs-launcher": "~0.1.0",
+    "karma": "~0.10.1",
+    "grunt": "~0.4.1",
+    "grunt-karma": "~0.6.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "karma-coverage": "~0.1.0"
+  }
+}
